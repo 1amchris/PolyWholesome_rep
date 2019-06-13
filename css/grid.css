@@ -2,4 +2,25 @@
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    min-height: 500px;
+    border: solid red 2px;
+}
+#chatZone {
+    border: solid blue 2px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+#textInputForm{
+    border: solid green 2px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+body{
+    min-height: 500px;
 }
