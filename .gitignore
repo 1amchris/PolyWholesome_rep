@@ -16,8 +16,8 @@
 /Polywholesome/node_modules
 
 # profiling files
-chrome-profiler-events.json
-speed-measure-plugin.json
+/Polywholesome/chrome-profiler-events.json
+/Polywholesome/speed-measure-plugin.json
 
 # IDEs and editors
 /Polywholesome/.idea
@@ -30,11 +30,11 @@ speed-measure-plugin.json
 
 # IDE - VSCode
 /Polywholesome/.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+!/Polywholesome/.vscode/settings.json
+!/Polywholesome/.vscode/tasks.json
+!/Polywholesome/.vscode/launch.json
+!/Polywholesome/.vscode/extensions.json
+/Polywholesome/.history/*
 
 # misc
 /Polywholesome/.sass-cache
