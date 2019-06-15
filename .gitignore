@@ -1,3 +1,53 @@
+
+
+.idea/workspace.xml
 *.xml
-.idea/*
-*.xml
+.idea/PolyWholsome_rep.iml
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/Polywholesome/dist
+/Polywholesome/tmp
+/Polywholesome/out-tsc
+# Only exists if Bazel was run
+/Polywholesome/bazel-out
+
+# dependencies
+/Polywholesome/node_modules
+
+# profiling files
+/Polywholesome/chrome-profiler-events.json
+/Polywholesome/speed-measure-plugin.json
+
+# IDEs and editors
+/Polywholesome/.idea
+/Polywholesome/.project
+/Polywholesome/.classpath
+/Polywholesome/.c9/
+/Polywholesome/*.launch
+/Polywholesome/.settings/
+/Polywholesome/*.sublime-workspace
+
+# IDE - VSCode
+/Polywholesome/.vscode/*
+!/Polywholesome/.vscode/settings.json
+!/Polywholesome/.vscode/tasks.json
+!/Polywholesome/.vscode/launch.json
+!/Polywholesome/.vscode/extensions.json
+/Polywholesome/.history/*
+
+# misc
+/Polywholesome/.sass-cache
+/Polywholesome/connect.lock
+/Polywholesome/coverage
+/Polywholesome/libpeerconnection.log
+/Polywholesome/npm-debug.log
+/Polywholesome/yarn-error.log
+/Polywholesome/testem.log
+/Polywholesome/typings
+
+# System Files
+/Polywholesome/.DS_Store
+/Polywholesome/Thumbs.db
+
