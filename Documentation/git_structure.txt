@@ -1,0 +1,9 @@
+
+// Reference
+	https://nvie.com/posts/a-successful-git-branching-model/
+//
+
+Main points: 
+	- master can only be merged on pull request
+	- dev is the main branch we checkout from
+	- hotfix for fixes, feature for features, release for release: all temp
